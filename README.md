@@ -16,7 +16,7 @@ The Code Block Editor is a visual tool for creating and managing code blocks. It
 
 To run this application locally, follow these steps:
 
-##Clone the repository**:
+##Clone the repository
 ```bash
 git clone <repository-url>
 ```
