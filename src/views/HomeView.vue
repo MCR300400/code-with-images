@@ -167,7 +167,6 @@ import { reactive, ref } from 'vue';
   
   .info-section {
     background-color: white;
-    padding: 1rem;
     border-bottom: 2px solid #e1e1e1;
   }
   
@@ -194,7 +193,7 @@ import { reactive, ref } from 'vue';
     border-right: 2px solid #1f2a38; /* Bordo destro per separare la barra laterale */
     position: sticky;
     top: 0; /* Mantieni la sidebar fissa in alto */
-    height: 100vh; /* Fissa l'altezza della sidebar */
+    height: 100%; /* Fissa l'altezza della sidebar */
     overflow-y: auto; /* Aggiungi una scrollbar se il contenuto supera l'altezza */
   }
   
